@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "del": "^2.2.2",
+    "dev-ip": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-image": "^2.7.2",
+    "gulp-less": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "immutable": "^3.8.1",
+    "portscanner": "^1.0.0",
+    "resp-modifier": "^6.0.2",
+    "ua-parser-js": "^0.7.10"
+  }
+}
