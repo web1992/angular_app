@@ -4,13 +4,13 @@ angluar 项目骨架
 目录结构：
 ---
 
-angular_app
-    |-gulpfile.js
-    |-index.html
-    |-package.json
-    |-dist  #gulp 压缩，打包之后的文件目录
-    |-node_modules
-    |-readme.md
+	angular_app
+		|-gulpfile.js
+		|-index.html
+		|-package.json
+		|-dist  #gulp 压缩，打包之后的文件目录
+		|-node_modules
+		|-readme.md
 
 
 
@@ -43,18 +43,9 @@ angular_app
 
 
 2,集成browser-sync
+---
 
     cnpm install --save-dev browser-sync
-
-    cnpm install --save-dev immutable
-
-    cnpm install --save-dev resp-modifier
-
-    cnpm install --save-dev dev-ip
-
-    cnpm install --save-dev portscanner
-
-    cnpm install --save-dev ua-parser-js
 
 
 
