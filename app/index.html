@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 <head>
     <meta charset="UTF-8">
     <title>angular index</title>
@@ -8,14 +8,19 @@
 
 
     <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="bower_components/angular/angular.min.js" type="text/javascript"></script>
     <script src="js/app.js" type="text/javascript"></script>
 
 </head>
 <body>
-angular index32
+angular index
 <hr />
 <span class="demo">demo</span>
 <hr />
 <button  onclick="" id="demoBtn">click me</button>
+<hr />
+enter you name:<input ng-model="username">
+<br />
+you name :<span>{{username}}</span>
 </body>
 </html>

@@ -9,3 +9,12 @@ $(function () {
         alert(5);
     });
 });
+
+var app = angular.module('myApp', []);
+
+
+app.run(function () {
+        console.log('angular app run');
+    }).config(function () {
+    console.log('angular  config');
+});
