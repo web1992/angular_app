@@ -17,7 +17,8 @@ gulp.task('serve', function () {
         }
     });
 
-    gulp.watch("app/css/*.css");
+    gulp.watch("app/css/*.css").on('change', reload);
+    gulp.watch("app/js/*.js").on('change', reload);
     gulp.watch("app/*.html").on('change', reload);
 
 });
@@ -72,6 +73,7 @@ gulp.task('image', function () {
 
 //执行压缩前，先删除dest文件夹里的内容
 gulp.task('clean', function (cb) {
+    console.log('clean dist dir ...')
     del(['dist/*'], cb)
 });
 
@@ -89,7 +91,7 @@ gulp.task("watch", function () {
 });
 
 //默认命令，在cmd中输入gulp后，执行的就是这个命令
-gulp.task('default', ['serve'], function () {
+gulp.task('default', ['clean','serve'], function () {
     // 将你的默认的任务代码放在这
-    gulp.start('clean', 'concatminifycss', 'image', 'concatminifyjs');
+    //gulp.start('clean', 'image', 'concatminifyjs');
 });
