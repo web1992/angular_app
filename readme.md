@@ -48,6 +48,12 @@ angluar 项目骨架
     cnpm install --save-dev browser-sync
 
 
+3,集成bower
+---
+    bower init
+
+
+
 
 
 

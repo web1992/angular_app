@@ -1,0 +1,21 @@
+{
+  "name": "angular_app",
+  "description": "a demo of angular",
+  "main": "",
+  "authors": [
+    "web1992 <554933654@qq.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "web1992",
+    "angular"
+  ],
+  "homepage": "https://github.com/web1992/angular_app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
